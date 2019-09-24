@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="5dip"
+    android:paddingLeft="5dip"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+
+    >
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffff"
+
+    >
+
+
+    <TextView
+        android:id="@+id/txt_sr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sr."
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/txt_sr"
+        android:layout_marginLeft="20dp"
+        android:text="Date"
+        android:textColor="#343434"
+        android:textSize="15dip" />
+
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/txt_date"
+        android:gravity="right"
+        android:text="xxxxxx"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
+
+</RelativeLayout>
